@@ -8,4 +8,4 @@ We're going to:
 
 3) Setup a SCMRepo creation, and then create it
 
-4) Delete a specific SCMRepo (remember that you will lose the associated Changesets as well
+4) Delete a specific SCMRepo (remember that you will lose the associated Changesets as well)
