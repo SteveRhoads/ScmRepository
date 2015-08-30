@@ -1,0 +1,22 @@
+<Config>
+    <RallyBaseUrl>rally1.rallydev.com</RallyBaseUrl>
+    <RallyUserName>yourname@domain.com</RallyUserName>
+    <RallyPassword>password</RallyPassword>
+    <RallyWorkspaceName>Workspace</RallyWorkspaceName>
+    <RallySCMRepositoryName>RepositoryCollectionName</RallySCMRepositoryName>
+    <!-- <SourceControlUrl>YourVCSWebFrontEnd:port_number</SourceControlUrl> -->
+    <!--
+      Used to determine how to translate a check-in author to a Rally user
+      Example: user to user@domain.com
+      -->
+    <UserDomain>domain.com</UserDomain>
+    <Prefixes>
+        <!--
+          This section if for specifying if you have configured rally to use custom prefixes for the object Ids.
+          If your custom prefix contains a number, this connector will not function
+          -->
+        <Defect>DE</Defect>
+        <Story>US</Story>
+        <Task>TA</Task>
+    </Prefixes>
+</Config>
